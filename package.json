@@ -1,0 +1,17 @@
+{
+  "name": "academybot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file .env index.js",
+    "dev": "nodemon --env-file .env index.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "telegraf": "^4.16.3"
+  }
+}
